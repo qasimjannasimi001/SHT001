@@ -2,7 +2,8 @@ import os
 
 try:
 
-	import requestsexcept ImportError:
+	import requests
+	except ImportError:
 
 	print('\n [×] requests module not installed!...\n')
 
